@@ -13,7 +13,7 @@
    font-family: 'IBM Plex Sans', sans-serif;
 }
 
-body {
+body, nav {
    color: var(--text-color);
    background-color: var(--bg-color);
 }
@@ -40,18 +40,42 @@ hr {
    color: var(--input-border-color);
 }
 
-#nav {
-   height: 100px;
-}
-
 #footer-text {
    color: var(--text-tetiary-color);
 }
 
 li {
    font-weight: 500;
+   width: min-content;
 }
 
 .blue {
    color: var(--link-color);
+}
+
+@media(max-width: 992px) {
+   #resume {
+      border: none !important;
+      text-decoration: underline;
+   }
+}
+
+@media(max-width: 650px) {
+   .display-2 {
+      font-size: 4.5rem;
+   }
+
+   .sub {
+      font-size: 2.25rem;
+   }
+}
+
+@media(max-width: 450px) {
+   .display-2 {
+      font-size: 4rem;
+   }
+
+   .sub {
+      font-size: 2rem;
+   }
 }
