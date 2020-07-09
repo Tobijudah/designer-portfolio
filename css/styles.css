@@ -1,0 +1,57 @@
+:root {
+   --bg-color: #0E0F13;
+   --text-color: #FAFAFA;
+   --text-secondary-color: rgba(250, 250, 250, 0.6);
+   --text-tetiary-color: rgba(250, 250, 250, 0.7);
+   --heading-border-color: rgba(250, 250, 250, 0.9);
+   --link-color: #45A398;
+   --input-color: #18191E;
+   --input-border-color: rgba(250, 250, 250, 0.5);
+}
+
+* {
+   font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+   color: var(--text-color);
+   background-color: var(--bg-color);
+}
+
+a, .fas {
+   color: var(--text-color);
+}
+
+hr {
+   border: 0.5px solid var(--input-border-color);
+}
+
+.btn {
+   color: var(--text-color);
+   border: 0.5px solid var(--text-color);
+}
+
+.form-control {
+   background-color: var(--input-color);
+   border-bottom: 1px solid var(--input-border-color) !important;
+}
+
+.form-control::placeholder {
+   color: var(--input-border-color);
+}
+
+#nav {
+   height: 100px;
+}
+
+#footer-text {
+   color: var(--text-tetiary-color);
+}
+
+li {
+   font-weight: 500;
+}
+
+.blue {
+   color: var(--link-color);
+}
