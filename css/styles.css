@@ -41,6 +41,10 @@ p {
    font-weight: 300;
 }
 
+button:focus {
+   outline: none;
+}
+
 .btn {
    color: var(--text-color);
    background-color: var(--button-background-color);
