@@ -31,6 +31,14 @@ hr {
    border: 0.5px solid var(--input-border-color);
 }
 
+input {
+   height: 56px !important;
+}
+
+p {
+   font-weight: 300;
+}
+
 .btn {
    color: var(--text-color);
    border: 0.5px solid var(--text-color);
@@ -60,6 +68,7 @@ li {
 
 .blue {
    color: var(--link-color) !important;
+   font-weight: 400;
 }
 
 .blue:hover, nav a:hover{
@@ -91,5 +100,13 @@ li {
 
    .sub {
       font-size: 2rem;
+   }
+
+   input {
+      height: 48px !important;
+   }
+
+   textarea {
+      height: 201px !important;
    }
 }
