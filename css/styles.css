@@ -79,6 +79,7 @@ button:focus {
 .form-control:focus, .form-control:active {
    color: var(--text-color);
    background-color: var(--input-focus-color);
+   transition: background-color 400ms;
    box-shadow: none;
    border-bottom: 1px solid var(--text-color) !important;
 }
